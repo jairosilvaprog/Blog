@@ -1,0 +1,72 @@
+body{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background: url(imagens/planodefundo.jpg),center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-seri;
+    line-height: 2;
+    color: rgb(255, 254, 254);
+}
+
+main{
+    background: rgba(0, 0, 0, 0.534);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;    
+}
+
+a{
+    color: rgb(235, 236, 236);
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bold;    
+}
+
+a:hover{
+    color: rgba(54, 172, 190, 0.438);
+}
+
+.logoo, .montanha, .melhor{
+    margin: 0;
+    text-align: center;
+}   
+.vantagens{
+    text-align: center;
+}
+.excursões{ 
+    text-align: center;    
+}
+.excursões table{
+    width: 50%;
+    border-collapse:collapse 25px;
+    margin: 10px auto;
+    background: rgba(54, 172, 190, 0.438);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+th, td{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+fieldset {
+    text-align: center;
+    width: 80%;
+    border-collapse:collapse 2px;
+    margin: 10px auto;
+    background: rgba(54, 172, 190, 0.438);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+form input, form text area,form label{
+    font-size: 16px;
+    
+}
+
+form legend{
+    font-size: 18px;
+}
